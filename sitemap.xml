@@ -1,78 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/what_is_pinax/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/quick_start/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/history/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/faq/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/pinax_starter_projects/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/pinax_apps/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/how-tos/ldap/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/how-tos/deploy-to-heroku/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/how-tos/release-starter-project/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/how_to_contribute/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/ways_to_contribute/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/release_process/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/code_of_conduct/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2019-06-27</lastmod>
+     <loc>/in_the_wild/</loc>
+     <lastmod>2019-06-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
 </urlset>
