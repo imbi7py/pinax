@@ -8,20 +8,20 @@
     
     
     
-    <link rel="../../img/favicon.ico">
+    <link rel="/img/favicon.ico">
 
     
-    <title>LDAP Integration - Pinax Documentation</title>
+    <title>Pinax Documentation</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="../../css/base.min.css" rel="stylesheet">
-    <link href="../../css/cinder.min.css" rel="stylesheet">
-    <link href="../../css/highlight.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="/css/base.min.css" rel="stylesheet">
+    <link href="/css/cinder.min.css" rel="stylesheet">
+    <link href="/css/highlight.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -61,7 +61,7 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href="../..">Pinax Documentation</a>
+            <a class="navbar-brand" href="/.">Pinax Documentation</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -71,7 +71,7 @@
                 
                 
                     <li >
-                        <a href="../..">Pinax Documentation</a>
+                        <a href="/.">Pinax Documentation</a>
                     </li>
                 
                 
@@ -82,25 +82,25 @@
                         
                             
 <li >
-    <a href="../../what_is_pinax/">What is Pinax?</a>
+    <a href="/what_is_pinax/">What is Pinax?</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../quick_start/">Quick Start</a>
+    <a href="/quick_start/">Quick Start</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../history/">History</a>
+    <a href="/history/">History</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../faq/">FAQs</a>
+    <a href="/faq/">FAQs</a>
 </li>
 
                         
@@ -115,13 +115,13 @@
                         
                             
 <li >
-    <a href="../../pinax_starter_projects/">Pinax Starter Projects</a>
+    <a href="/pinax_starter_projects/">Pinax Starter Projects</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../pinax_apps/">Pinax Apps</a>
+    <a href="/pinax_apps/">Pinax Apps</a>
 </li>
 
                         
@@ -130,25 +130,25 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">How Tos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">LDAP Integration</a>
+<li >
+    <a href="/how-tos/ldap/">LDAP Integration</a>
 </li>
 
                         
                             
 <li >
-    <a href="../deploy-to-heroku/">Deploying to Heroku</a>
+    <a href="/how-tos/deploy-to-heroku/">Deploying to Heroku</a>
 </li>
 
                         
                             
 <li >
-    <a href="../release-starter-project/">Releasing a Starter Project</a>
+    <a href="/how-tos/release-starter-project/">Releasing a Starter Project</a>
 </li>
 
                         
@@ -163,25 +163,25 @@
                         
                             
 <li >
-    <a href="../../how_to_contribute/">How to Contribute</a>
+    <a href="/how_to_contribute/">How to Contribute</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../ways_to_contribute/">Ways to Contribute</a>
+    <a href="/ways_to_contribute/">Ways to Contribute</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../release_process/">Release Process</a>
+    <a href="/release_process/">Release Process</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../code_of_conduct/">Code of Conduct</a>
+    <a href="/code_of_conduct/">Code of Conduct</a>
 </li>
 
                         
@@ -196,7 +196,7 @@
                         
                             
 <li >
-    <a href="../../in_the_wild/">In the Wild</a>
+    <a href="/in_the_wild/">In the Wild</a>
 </li>
 
                         
@@ -212,16 +212,6 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
-                    <li >
-                        <a rel="prev" href="../../pinax_apps/">
-                            <i class="fas fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="next" href="../deploy-to-heroku/">
-                            Next <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </li>
             </ul>
         </div>
     </div>
@@ -229,38 +219,16 @@
 
     <div class="container">
         
-        
-        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#ldap-integration">LDAP Integration</a></li>
-    </ul>
-</div></div>
-        <div class="col-md-9" role="main">
 
-<h1 id="ldap-integration">LDAP Integration</h1>
-<p>In your <code>requirements.txt</code>, add:</p>
-<pre><code>django-auth-ldap==1.2.6
-</code></pre>
-<p>In your <code>settings.py</code>, add:</p>
-<pre><code>AUTHENTICATION_BACKENDS = [
-    "django_auth_ldap.backend.LDAPBackend",  # ldap will authenticate before your local database
-    "account.auth_backends.UsernameAuthenticationBackend",
-]
+    <div class="row-fluid">
+      <div id="main-content" class="span12">
+        <h1 id="404-page-not-found" style="text-align: center">404</h1>
+        <p style="text-align: center"><strong>Page not found</strong></p>
+        <p style="text-align: center"><a href="/">Home</a></p>
+      </div>
+    </div>
 
-import ldap
-from django_auth_ldap.config import LDAPSearch
 
-AUTH_LDAP_SERVER_URI = "ldap://127.0.0.1"
-AUTH_LDAP_USER_SEARCH = LDAPSearch(
-    "ou=users,dc=example,dc=com",
-    ldap.SCOPE_SUBTREE,
-    "(uid=%(user)s)"
-)
-</code></pre>
-<p>The <code>AUTH_LDAP_*</code> settings will vary based on how LDAP is configured. For more
-information, see the <a href="https://pythonhosted.org/django-auth-ldap/">django-auth-ldap documentation</a>.</p></div>
-        
-        
     </div>
 
     <footer class="col-md-12 text-center">
@@ -273,13 +241,13 @@ information, see the <a href="https://pythonhosted.org/django-auth-ldap/">django
         
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../../js/bootstrap-3.0.3.min.js"></script>
-    <script src="../../js/highlight.pack.js"></script>
+    <script src="/js/bootstrap-3.0.3.min.js"></script>
+    <script src="/js/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script>var base_url = "../.."</script>
+    <script>var base_url = "/"</script>
     
-    <script src="../../js/base.js"></script>
-    <script src="../../search/main.js"></script>
+    <script src="/js/base.js"></script>
+    <script src="/search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
